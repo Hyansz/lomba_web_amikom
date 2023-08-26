@@ -1,12 +1,11 @@
 import './App.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+import './css/style1.css'
+import Hero from './components/Hero';
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='body'>
+      <Hero/>
+    </div>
   )
 }

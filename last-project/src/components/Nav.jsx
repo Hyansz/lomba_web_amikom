@@ -16,8 +16,8 @@ export default function Navigation() {
                     <Navbar.Toggle />
                 </div>
                 <Navbar.Collapse>
-                    <Navbar.Link active href="#hero">
-                        <p className="active">Home</p>
+                    <Navbar.Link href="#hero" className="text-white">
+                        <p className="link">Home</p>
                     </Navbar.Link>
                     <Navbar.Link href="#about" className="text-white">
                         <p className="link">About</p>

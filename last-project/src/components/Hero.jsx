@@ -6,7 +6,7 @@ AOS.init();
 
 export default function Hero () {
     return (
-        <div style={{ backgroundImage: "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('https://tribratanews.polri.go.id/web/image/blog.post/55721/image')", backgroundAttachment: "fixed" }}>
+        <div style={{ backgroundImage: "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('https://tribratanews.polri.go.id/web/image/blog.post/55721/image')", backgroundAttachment: "fixed", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundSize: "cover" }}>
             <Navigation/>
             <div className="hero lg:py-20 2xl:py-80 py-32">
                 <div className="hero-text text-center lg:text-center py-20 lg:p-0 w-11/12 lg:w-5/12 m-auto xl:w-7/12 2xl:w-11/12 text-white">

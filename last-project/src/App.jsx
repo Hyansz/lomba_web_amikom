@@ -4,8 +4,9 @@ import Hero from './components/Hero';
 import Pengantar from './components/Pengantar';
 // import Contents from './components/Content';
 import Footer from './components/Footer';
-// import Pengantar2 from './components/Pengantar2';
-// import Imglist from './components/Imglist';
+import Pengantar2 from './components/Pengantar2';
+import Imglist from './components/Imglist';
+import Sejarah from './components/Sejarah';
 // import Jenis from './components/Jenis';
 
 export default function App() {
@@ -13,8 +14,9 @@ export default function App() {
     <div className='body'>
       <Hero />
       <Pengantar />
-      {/* <Pengantar2 /> */}
-      {/* <Imglist /> */}
+      <Pengantar2 />
+      <Sejarah />
+      <Imglist />
       {/* <Contents /> */}
       {/* <Jenis /> */}
       <Footer />

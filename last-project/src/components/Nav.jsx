@@ -20,13 +20,13 @@ export default function Navigation() {
                         <p className="link">Home</p>
                     </Navbar.Link>
                     <Navbar.Link href="#about" className="text-white">
-                        <p className="link">About</p>
+                        <p className="link">Wayang?</p>
                     </Navbar.Link>
                     <Navbar.Link href="#about" className="text-white">
-                        <p className="link">Link 1</p>
+                        <p className="link">Sejarah</p>
                     </Navbar.Link>
                     <Navbar.Link href="#about" className="text-white">
-                        <p className="link">Link 2</p>
+                        <p className="link">Galerry</p>
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>

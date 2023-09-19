@@ -31,15 +31,9 @@
 }
 
 @media (min-width: 1024px) {
-    .hero {
+    .heros {
         display: flex;
         align-items: center;
         justify-content: space-around;
-    }
-
-    .hero .img-hero img {
-        display: block;
-        width: 500px;
-        border-radius: 10px;
     }
 }

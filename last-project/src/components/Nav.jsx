@@ -5,7 +5,7 @@ import "./../css/style1.css"
 
 export default function Navigation() {
     return (
-        <div className="w-11/12 m-auto">
+        <div className="w-11/12 m-auto p-0">
             <Navbar id="navbar">
                 <Navbar.Brand>
                     <a href="#hero">

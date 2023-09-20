@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <div style={{ backgroundImage: "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('https://tribratanews.polri.go.id/web/image/blog.post/55721/image')", backgroundAttachment: "fixed", backgroundRepeat: "no-repeat", backgroundPosition: "bottom", backgroundSize: "cover" }}>
             <div data-aos="zoom-in" data-aos-duration="2000">
-                <footer className="dark:bg-gray-900 w-11/12 m-auto mt-20 pb-10" id='contact'>
+                <footer className="dark:bg-gray-900 w-11/12 m-auto mt-20 pb-10" id='contact' style={{ maxWidth: "2000px", margin: "auto" }}>
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                         <div className="sm:flex sm:items-center sm:justify-between text-center">

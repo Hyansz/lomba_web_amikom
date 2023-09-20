@@ -5,7 +5,7 @@ import "./../css/style1.css"
 
 export default function Navigation() {
     return (
-        <div className="w-11/12 m-auto p-0">
+        <div className="w-11/12 m-auto">
             <Navbar id="navbar">
                 <Navbar.Brand>
                     <a href="#hero">
@@ -19,13 +19,13 @@ export default function Navigation() {
                     <Navbar.Link href="#hero" className="text-white">
                         <p className="link">Home</p>
                     </Navbar.Link>
-                    <Navbar.Link href="#about" className="text-white">
+                    <Navbar.Link href="#about1" className="text-white">
                         <p className="link">Wayang?</p>
                     </Navbar.Link>
-                    <Navbar.Link href="#about" className="text-white">
+                    <Navbar.Link href="#about2" className="text-white">
                         <p className="link">Sejarah</p>
                     </Navbar.Link>
-                    <Navbar.Link href="#about" className="text-white">
+                    <Navbar.Link href="#about3" className="text-white">
                         <p className="link">Galerry</p>
                     </Navbar.Link>
                 </Navbar.Collapse>

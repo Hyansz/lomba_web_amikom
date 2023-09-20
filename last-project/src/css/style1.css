@@ -19,6 +19,7 @@
 
 .body {
     background-color: #FDF6E0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #title_hero {
@@ -28,12 +29,4 @@
 #img {
     height: 250px;
     border-radius: 10px;
-}
-
-@media (min-width: 1024px) {
-    .heros {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
 }

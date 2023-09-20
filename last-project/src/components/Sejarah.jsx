@@ -6,8 +6,8 @@ AOS.init();
 
 export default function Sejarah () {
     return (
-        <div className='content'>
-            <div className="heros lg:p-10 xl:px-20 py-16 md:py-16 lg:py-20 xl:py-32 2xl:py-36 gap-24">
+        <div className='content' style={{ maxWidth: "2000px", margin: "auto" }} id='about2'>
+            <div className="pengantar lg:p-10 xl:px-20 py-16 md:py-16 lg:py-20 xl:py-32 2xl:py-36 gap-24 flex flex-col md:flex-col lg:flex-row">
                 <div className="img-hero w-11/12 m-auto pt-12 md:w-7/12 lg:m-auto lg:p-0">
                     <div data-aos="fade-left" data-aos-duration="1500">
                         <img className='rounded-3xl' src="https://s3-ceph.indoteam.id/chatnews-bucket-production/wp-content/production/uploads/2022/07/20184921/kulit3-1536x942.jpg" alt="" />

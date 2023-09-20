@@ -15,7 +15,7 @@ import Cards from "./Card";
 
 export default function App() {
     return (
-        <div className="pt-28 w-11/12 m-auto">
+        <div className="pt-28 w-11/12 m-auto" style={{ maxWidth: "2000px", margin: "auto" }} id='about3'>
             <div className="text-center 2xl:pb-10">
                 <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl pb-3">Apa Saja Jenis-Jenis Wayang</h1>
                 <p className="px-10">Tidak hanya wayang kulit, tetapi wayang memiliki banyak macam seperti berikut</p>
